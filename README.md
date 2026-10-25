@@ -19,14 +19,6 @@ Power Automate · Power Apps · n8n · Mac automation
 |---|---|---|---|
 | **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Mac · AppleScript | Turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working | Coming soon |
 
-### Coming next
-
-- Return a table from Power Automate to Power Apps
-- Extract email table data when the columns change (Power Automate)
-- Extract data from PDF attachments with AI (Power Automate)
-
-[Subscribe on YouTube](https://www.youtube.com/@biteasier?sub_confirmation=1) to get them first.
-
 ## How to use
 
 Every tutorial folder has the same layout:
