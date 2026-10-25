@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Export each Numbers sheet as its own PDF, in one click">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052E16"/>
+      <stop offset="0.6" stop-color="#064E3B"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F87171"/>
+      <stop offset="1" stop-color="#DC2626"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0 H0 V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+
+  <!-- Text -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g transform="translate(72 64)">
+      <rect width="196" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12"/>
+      <text x="98" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#BBF7D0" letter-spacing="1">MAC · APPLESCRIPT</text>
+    </g>
+    <text x="72" y="168" font-size="54" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Export each Numbers</text>
+    <text x="72" y="232" font-size="54" font-weight="800" fill="#FFFFFF" letter-spacing="-1">sheet as its own PDF</text>
+    <text x="72" y="286" font-size="23" font-weight="500" fill="#D1FAE5">One click · named after each sheet · formulas kept</text>
+    <text x="72" y="340" font-size="17" font-weight="600" fill="#86EFAC">youtube.com/@biteasier</text>
+  </g>
+
+  <!-- Illustration: one spreadsheet becomes three PDFs -->
+  <g transform="translate(680 72)">
+    <!-- spreadsheet -->
+    <g filter="url(#shadow)">
+      <rect x="0" y="40" width="170" height="200" rx="14" fill="#FFFFFF"/>
+      <rect x="0" y="40" width="170" height="40" rx="14" fill="url(#green)"/>
+      <rect x="0" y="66" width="170" height="14" fill="#16A34A"/>
+      <g fill="#E2E8F0">
+        <rect x="16" y="96" width="62" height="16" rx="3"/><rect x="86" y="96" width="68" height="16" rx="3"/>
+        <rect x="16" y="120" width="62" height="16" rx="3"/><rect x="86" y="120" width="68" height="16" rx="3"/>
+        <rect x="16" y="144" width="62" height="16" rx="3"/><rect x="86" y="144" width="68" height="16" rx="3"/>
+        <rect x="16" y="168" width="62" height="16" rx="3"/><rect x="86" y="168" width="68" height="16" rx="3"/>
+      </g>
+      <!-- sheet tabs -->
+      <rect x="12" y="200" width="44" height="24" rx="6" fill="#16A34A"/>
+      <rect x="62" y="200" width="44" height="24" rx="6" fill="#BBF7D0"/>
+      <rect x="112" y="200" width="44" height="24" rx="6" fill="#BBF7D0"/>
+    </g>
+
+    <!-- arrow -->
+    <g transform="translate(196 140)">
+      <path d="M0 0 H78" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14"/>
+      <path d="M70 -16 L96 0 L70 16" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- three PDFs, cascaded; each shows its sheet name in the visible top strip -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <g transform="translate(318 0)" filter="url(#shadow)">
+        <path d="M0 0 H92 L124 32 V170 H0 Z" fill="#E2E8F0"/>
+        <path d="M92 0 V32 H124" fill="#CBD5E1"/>
+        <text x="14" y="26" font-size="15" font-weight="700" fill="#334155">Rates</text>
+      </g>
+      <g transform="translate(362 44)" filter="url(#shadow)">
+        <path d="M0 0 H92 L124 32 V170 H0 Z" fill="#F1F5F9"/>
+        <path d="M92 0 V32 H124" fill="#CBD5E1"/>
+        <text x="14" y="26" font-size="15" font-weight="700" fill="#334155">ACME-01</text>
+      </g>
+      <g transform="translate(406 88)" filter="url(#shadow)">
+        <path d="M0 0 H92 L124 32 V170 H0 Z" fill="#FFFFFF"/>
+        <path d="M92 0 V32 H124" fill="#E2E8F0"/>
+        <text x="14" y="26" font-size="15" font-weight="700" fill="#334155">Invoice 002</text>
+        <rect x="14" y="52" width="56" height="8" rx="4" fill="#CBD5E1"/>
+        <rect x="76" y="52" width="32" height="8" rx="4" fill="#94A3B8"/>
+        <rect x="14" y="72" width="56" height="8" rx="4" fill="#E2E8F0"/>
+        <rect x="76" y="72" width="32" height="8" rx="4" fill="#CBD5E1"/>
+        <rect x="14" y="92" width="94" height="8" rx="4" fill="#E2E8F0"/>
+        <rect x="-8" y="128" width="68" height="28" rx="5" fill="url(#red)"/>
+        <text x="26" y="148" text-anchor="middle" font-size="15" font-weight="800" fill="#FFFFFF">PDF</text>
+      </g>
+    </g>
+  </g>
+</svg>

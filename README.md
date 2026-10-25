@@ -1,42 +1,59 @@
 <div align="center">
 
-# 🛠️ YouTube Tutorials
+<a href="https://www.youtube.com/@biteasier?sub_confirmation=1"><img src="assets/banner.svg" alt="biteasier YouTube Tutorials: ready-to-use automation scripts, explained step by step" width="100%"></a>
 
-**Ready-to-use automation scripts from my YouTube channel.**
-Mac automation (AppleScript, Shortcuts, Numbers, Pages, Mail) and Microsoft Power Automate.
+<br>
 
-<a href="https://www.youtube.com/@biteasier?sub_confirmation=1"><img src="https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Subscribe on YouTube"></a>
-<img src="https://img.shields.io/badge/macOS-Automation-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS automation">
-<img src="https://img.shields.io/badge/Power_Automate-Flows-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white" alt="Power Automate">
+<a href="https://www.youtube.com/@biteasier?sub_confirmation=1"><img src="https://img.shields.io/badge/Subscribe-@biteasier-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Subscribe on YouTube"></a>
+<a href="#-tutorials"><img src="https://img.shields.io/badge/Tutorials-1-7C3AED?style=for-the-badge" alt="1 tutorial"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge" alt="MIT License"></a>
+
+**Free scripts from my YouTube videos. Download, run, done.**
 
 </div>
 
 ---
 
-## 📚 Tutorials
+## 🎬 Tutorials
 
-| | Tutorial | What it does | Video |
-|:-:|---|---|:-:|
-| 🍎 | **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Turns every sheet of an Apple Numbers file into its own PDF, named after the sheet, in one click | *Coming soon* |
+<table>
+  <tr>
+    <td width="100%">
+      <a href="numbers-sheets-to-pdf/"><img src="numbers-sheets-to-pdf/assets/banner.svg" alt="Export each Numbers sheet as its own PDF" width="100%"></a>
+      <h3>🍎 <a href="numbers-sheets-to-pdf/">Export each Numbers sheet as a separate PDF</a></h3>
+      <p>Numbers can only export the whole file. This AppleScript turns <b>every sheet into its own PDF</b>, named after the sheet, and keeps formulas that use other sheets working.</p>
+      <p>
+        <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS">
+        <img src="https://img.shields.io/badge/AppleScript-1F6FEB?style=flat-square" alt="AppleScript">
+        <img src="https://img.shields.io/badge/Numbers-16A34A?style=flat-square" alt="Numbers">
+        &nbsp;📺 <i>Video coming soon</i>
+      </p>
+    </td>
+  </tr>
+</table>
 
-> More tutorials are on the way. [Subscribe on YouTube](https://www.youtube.com/@biteasier?sub_confirmation=1) so you don't miss them.
+> 🔔 **More tutorials are on the way:** Power Automate flows, Mac automation and more. [Subscribe on YouTube](https://www.youtube.com/@biteasier?sub_confirmation=1) so you don't miss them.
 
-## 📁 What's in each tutorial folder
+## ✨ What you get in every tutorial
 
-- 📜 **The script**, ready to run
-- 🧪 **A demo file**, so you can try it safely before using your own files
-- 📖 **A README** with step-by-step instructions
+<table>
+  <tr>
+    <td align="center" width="33%">📜<br><b>The script</b><br><sub>Ready to run, with comments that explain each step</sub></td>
+    <td align="center" width="33%">🧪<br><b>A demo file</b><br><sub>Try it safely before using your own files</sub></td>
+    <td align="center" width="33%">📖<br><b>A guide</b><br><sub>Step-by-step setup, tips and troubleshooting</sub></td>
+  </tr>
+</table>
 
 ## ⬇️ How to download
 
-**Just one tutorial:** open its folder, click a file, then click the **download** button (⤓) at the top right of the file view.
-
-**Everything:** click the green **Code** button at the top of this page, then **Download ZIP**.
+| I want… | Do this |
+|---|---|
+| **One file** | Open the tutorial folder, click the file, then click **⤓ Download raw file** at the top right |
+| **Everything** | Click the green **`<> Code`** button at the top of this page, then **Download ZIP** |
 
 ## 💬 Questions or ideas?
 
-Leave a comment under the video on [YouTube](https://www.youtube.com/@biteasier), or [open an issue](../../issues) here. If there's a task you'd like automated, let me know and it might become the next tutorial.
+Ask in the comments under the video on [YouTube](https://www.youtube.com/@biteasier), or [open an issue](../../issues) here. Got a boring task you'd like automated? Tell me, and it might become the next tutorial.
 
 ## 📄 License
 
@@ -46,6 +63,6 @@ Leave a comment under the video on [YouTube](https://www.youtube.com/@biteasier)
 
 <div align="center">
 
-⭐ **If a script saved you time, star this repo!** ⭐
+**If a script saved you time, ⭐ star this repo and [subscribe on YouTube](https://www.youtube.com/@biteasier?sub_confirmation=1)!**
 
 </div>

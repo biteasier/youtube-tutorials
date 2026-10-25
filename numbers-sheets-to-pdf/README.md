@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🍎 Export Each Numbers Sheet as a Separate PDF
+<img src="assets/banner.svg" alt="Export each Numbers sheet as its own PDF: one click, named after each sheet, formulas kept" width="100%">
 
-**One Numbers file in → one PDF per sheet out, each named after its sheet.**
+<br>
 
-<img src="https://img.shields.io/badge/macOS-Numbers-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Numbers">
-<img src="https://img.shields.io/badge/AppleScript-Script-1F6FEB?style=for-the-badge&logo=apple&logoColor=white" alt="AppleScript">
+<a href="Export%20Sheets%20to%20PDF.applescript"><img src="https://img.shields.io/badge/Get_the_script-16A34A?style=for-the-badge&logo=applescript&logoColor=white" alt="Get the script"></a>
 <a href="https://www.youtube.com/@biteasier?sub_confirmation=1"><img src="https://img.shields.io/badge/Video-Coming_soon-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube video"></a>
+<img src="https://img.shields.io/badge/macOS-Numbers-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Numbers">
 
 </div>
 
@@ -18,40 +18,25 @@ In Apple Numbers, **File › Export To › PDF** always puts **every sheet into 
 
 If your file has an invoice or a report on each sheet, you'd have to print them one by one and type every file name yourself.
 
-## ✨ The solution
+## ✨ The solution: one click
 
-This script does all of it in **one click**:
-
-- 📄 **One PDF per sheet**, named after the sheet
-- 🧮 **Formulas keep working**, even totals that come from **other sheets**
-- 📁 **Creates the folder for you**, right next to your Numbers file
-- 🔒 **Your original file is never changed**
-- ⏳ **Shows progress** while it works
+<table>
+  <tr>
+    <td align="center" width="20%">📄<br><b>1 PDF per sheet</b><br><sub>named after the sheet</sub></td>
+    <td align="center" width="20%">🧮<br><b>Formulas kept</b><br><sub>even from other sheets</sub></td>
+    <td align="center" width="20%">📁<br><b>Folder made for you</b><br><sub>next to your file</sub></td>
+    <td align="center" width="20%">🔒<br><b>Original untouched</b><br><sub>works on copies</sub></td>
+    <td align="center" width="20%">⏳<br><b>Progress bar</b><br><sub>sheet 2 of 10…</sub></td>
+  </tr>
+</table>
 
 ## 🔄 Before and after
 
-**Before:** one Numbers file with three sheets
+<p align="center">
+  <img src="assets/before-after.svg" alt="Before: Demo Invoices.numbers with sheets Rates, Invoice: ACME/01 and Invoice 002. After: a Demo Invoices PDFs folder with Rates.pdf, Invoice- ACME-01.pdf and Invoice 002.pdf, totals still correct" width="100%">
+</p>
 
-```
-📁 My Folder
-└── 📊 Demo Invoices.numbers
-      ├── Rates
-      ├── Invoice: ACME/01
-      └── Invoice 002
-```
-
-**After:** a new folder with one PDF per sheet
-
-```
-📁 My Folder
-├── 📊 Demo Invoices.numbers
-└── 📁 Demo Invoices PDFs      ← created automatically
-      ├── 📄 Rates.pdf
-      ├── 📄 Invoice- ACME-01.pdf
-      └── 📄 Invoice 002.pdf
-```
-
-> Characters that aren't allowed in file names (`/` `:` `\`) are replaced with `-`.
+> Characters that aren't allowed in file names (`/` `:` `\`) are replaced with `-`, so `Invoice: ACME/01` becomes `Invoice- ACME-01.pdf`.
 
 ## ⚙️ How it works
 
