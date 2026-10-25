@@ -30,13 +30,25 @@ This script does all of it in **one click**:
 
 ## 🔄 Before and after
 
+**Before:** one Numbers file with three sheets
+
 ```
-📁 My Folder                            📁 My Folder
-└── 📊 Demo Invoices.numbers     ──▶    ├── 📊 Demo Invoices.numbers
-    ├── Rates                           └── 📁 Demo Invoices PDFs   ← created automatically
-    ├── Invoice: ACME/01                    ├── 📄 Rates.pdf
-    └── Invoice 002                         ├── 📄 Invoice- ACME-01.pdf
-                                            └── 📄 Invoice 002.pdf
+📁 My Folder
+└── 📊 Demo Invoices.numbers
+      ├── Rates
+      ├── Invoice: ACME/01
+      └── Invoice 002
+```
+
+**After:** a new folder with one PDF per sheet
+
+```
+📁 My Folder
+├── 📊 Demo Invoices.numbers
+└── 📁 Demo Invoices PDFs      ← created automatically
+      ├── 📄 Rates.pdf
+      ├── 📄 Invoice- ACME-01.pdf
+      └── 📄 Invoice 002.pdf
 ```
 
 > Characters that aren't allowed in file names (`/` `:` `\`) are replaced with `-`.
@@ -46,11 +58,11 @@ This script does all of it in **one click**:
 Numbers can't export a single sheet, so for **each sheet** the script works on a temporary copy:
 
 ```mermaid
-flowchart LR
-    A["📊 Your Numbers file"] --> B["📋 Make a<br/>temporary copy"]
-    B --> C["🧮 Replace formulas<br/>with their values"]
-    C --> D["🗑️ Delete all<br/>other sheets"]
-    D --> E["📄 Export as<br/>Sheet name.pdf"]
+flowchart TD
+    A["📊 Your Numbers file"] --> B["📋 Make a temporary copy"]
+    B --> C["🧮 Replace formulas with their values"]
+    C --> D["🗑️ Delete all other sheets"]
+    D --> E["📄 Export as Sheet name.pdf"]
     E --> F["🧹 Delete the copy"]
     F -. next sheet .-> B
 ```
