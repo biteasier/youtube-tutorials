@@ -15,19 +15,9 @@ Power Automate · Power Apps · n8n · Mac automation
 
 ## Tutorials
 
-<table>
-  <tr>
-    <td width="40%" valign="top">
-      <a href="numbers-sheets-to-pdf/"><img src="numbers-sheets-to-pdf/assets/before-after.svg" alt="One Numbers file with three sheets becomes a folder with one PDF per sheet"></a>
-    </td>
-    <td width="60%" valign="top">
-      <h3><a href="numbers-sheets-to-pdf/">Export each Numbers sheet as a separate PDF</a></h3>
-      <p><sub>MAC · APPLESCRIPT · NUMBERS</sub></p>
-      <p>Numbers can only export the whole file. This script turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working.</p>
-      <p><a href="numbers-sheets-to-pdf/"><b>Open tutorial →</b></a> &nbsp;·&nbsp; Video coming soon</p>
-    </td>
-  </tr>
-</table>
+| Tutorial | Platform | What it does | Video |
+|---|---|---|---|
+| **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Mac · AppleScript | Turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working | Coming soon |
 
 ### Coming next
 
