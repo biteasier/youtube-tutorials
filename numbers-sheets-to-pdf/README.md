@@ -120,6 +120,6 @@ Tested with Numbers Creator Studio 15.4. The free Numbers app uses the same scri
 
 ## Video
 
-Step-by-step walkthrough on YouTube: [@biteasier](https://www.youtube.com/@biteasier) (coming soon).
+Step-by-step walkthrough on YouTube: [Export Each Numbers Sheet as a Separate PDF on Mac](https://youtu.be/C1LIwtsaOyk)
 
 [All tutorials](../) · [MIT License](../LICENSE)

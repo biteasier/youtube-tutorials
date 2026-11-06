@@ -17,7 +17,7 @@ Power Automate · Power Apps · n8n · Mac automation
 
 | Tutorial | Platform | What it does | Video |
 |---|---|---|---|
-| **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Mac · AppleScript | Turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working | Coming soon |
+| **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Mac · AppleScript | Turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working | [Watch](https://youtu.be/C1LIwtsaOyk) |
 
 ## How to use
 
