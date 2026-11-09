@@ -1,0 +1,44 @@
+// Return a table from Power Automate to Power Apps
+// Power Fx formulas used in the video. Paste each one into the property named above it.
+
+// ---------------------------------------------------------------
+// Refresh button › OnSelect
+// Runs the flow, then turns the JSON text it returns into a table.
+// The field names inside Type() must match the Select keys in the
+// flow exactly, including spaces.
+// ---------------------------------------------------------------
+Set(theVar, GetRequestsFromList.Run());
+ClearCollect(
+    colMYCollection,
+    ParseJSON(
+        theVar.requests,
+        Type(
+            [
+                {
+                    ID: Number,
+                    Title: Text,
+                    'Employee Email': Text,
+                    'Employee Name': Text,
+                    'Start Date': Text,
+                    'End Date': Text,
+                    Days: Number,
+                    Status: Text
+                }
+            ]
+        )
+    )
+)
+
+// ---------------------------------------------------------------
+// Gallery (vertical, layout "Title, subtitle, and body") › Items
+// ---------------------------------------------------------------
+colMYCollection
+
+// Title › Text
+ThisItem.'Employee Name'
+
+// Subtitle › Text
+ThisItem.Status
+
+// Body › Text
+ThisItem.'Employee Email' & " - " & ThisItem.'Start Date' & " _ " & ThisItem.'End Date' & " - " & ThisItem.Days

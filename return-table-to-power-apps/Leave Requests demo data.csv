@@ -1,0 +1,9 @@
+Title,EmployeeEmail,EmployeeName,StartDate,EndDate,Days,Status
+Family holiday,you@yourcompany.com,Your Name,2026-11-03,2026-11-07,5,Approved
+Dentist appointment,you@yourcompany.com,Your Name,2026-11-12,2026-11-12,1,Approved
+Wedding,you@yourcompany.com,Your Name,2026-12-18,2026-12-22,3,Pending
+Christmas break,you@yourcompany.com,Your Name,2026-12-24,2026-12-31,6,Pending
+Moving house,you@yourcompany.com,Your Name,2027-01-15,2027-01-16,2,Rejected
+Conference,sara.khan@contoso.com,Sara Khan,2026-11-10,2026-11-11,2,Approved
+Ski trip,tom.baker@contoso.com,Tom Baker,2027-02-02,2027-02-06,5,Pending
+Training course,maria.lopez@contoso.com,Maria Lopez,2026-11-20,2026-11-20,1,Approved

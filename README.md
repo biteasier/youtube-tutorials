@@ -5,7 +5,7 @@
 Free, ready-to-use automation scripts from the **[@biteasier](https://www.youtube.com/@biteasier)** YouTube channel.<br>
 Power Automate · Power Apps · n8n · Mac automation
 
-[![YouTube](https://img.shields.io/badge/YouTube-@biteasier-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@biteasier?sub_confirmation=1) [![Tutorials](https://img.shields.io/badge/tutorials-1-555555?style=flat-square)](#tutorials) [![License: MIT](https://img.shields.io/badge/license-MIT-555555?style=flat-square)](LICENSE)
+[![YouTube](https://img.shields.io/badge/YouTube-@biteasier-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@biteasier?sub_confirmation=1) [![Tutorials](https://img.shields.io/badge/tutorials-2-555555?style=flat-square)](#tutorials) [![License: MIT](https://img.shields.io/badge/license-MIT-555555?style=flat-square)](LICENSE)
 
 **[Tutorials](#tutorials)** · **[How to use](#how-to-use)** · **[Download](#download)** · **[Request a tutorial](../../issues/new)**
 
@@ -17,6 +17,7 @@ Power Automate · Power Apps · n8n · Mac automation
 
 | Tutorial | Platform | What it does | Video |
 |---|---|---|---|
+| **[Return a table from Power Automate to Power Apps](return-table-to-power-apps/)** | Power Automate · Power Apps | Gets SharePoint list items with a flow and shows them in a Power Apps gallery using ParseJSON | [Watch](https://youtu.be/Lx8Uvl4_Ezs) |
 | **[Export each Numbers sheet as a separate PDF](numbers-sheets-to-pdf/)** | Mac · AppleScript | Turns every sheet into its own PDF, named after the sheet, and keeps formulas that use other sheets working | [Watch](https://youtu.be/C1LIwtsaOyk) |
 
 ## How to use
